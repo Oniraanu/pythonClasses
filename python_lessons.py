@@ -65,8 +65,17 @@
 # print("73543635".translate(str.maketrans('3', '1')))
 # print("hello".translate(str.maketrans('o', ' ')) + "is here")
 
-str = 'hello'
-new_str = 'to you'
-print(f'Bunmi is saying {str}')
-print('Bunmi is saying {} and weldone {}'.format(str, new_str))
-print('Bunmi is saying {1} and weldone {0}'.format(str, new_str))
+# str = 'hello'
+# new_str = 'to you'
+# print(f'Bunmi is saying {str}')
+# print('Bunmi is saying {} and weldone {}'.format(str, new_str))
+# print('Bunmi is saying {1} and weldone {0}'.format(str, new_str))
+
+# smiley = "\U0001f600"
+# for i in range(1, 11, 2):
+#     print(f'{smiley*i:>40}')
+dividend = int(input("Enter dividend: "))
+divisor = int(input("Enter divisor: "))
+a, b = divmod(dividend, divisor)
+print(f"quotient {a} remainder {b}")
+
