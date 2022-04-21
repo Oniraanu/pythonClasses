@@ -67,15 +67,38 @@
 
 # str = 'hello'
 # new_str = 'to you'
-# print(f'Bunmi is saying {str}')
-# print('Bunmi is saying {} and weldone {}'.format(str, new_str))
-# print('Bunmi is saying {1} and weldone {0}'.format(str, new_str))
+# print(f'Bun mi is saying {str}')
+# print('Bun mi is saying {} and well done {}'.format(str, new_str))
+# print('Bun mi is saying {1} and well done {0}'.format(str, new_str))
 
 # smiley = "\U0001f600"
 # for i in range(1, 11, 2):
 #     print(f'{smiley*i:>40}')
-dividend = int(input("Enter dividend: "))
-divisor = int(input("Enter divisor: "))
-a, b = divmod(dividend, divisor)
-print(f"quotient {a} remainder {b}")
+# dividend = int(input("Enter dividend: "))
+# divisor = int(input("Enter divisor: "))
+# a, b = div-mod(dividend, divisor)
+# print(f"quotient {a} remainder {b}")
+
+# my_dict = {
+#     'name': "Bun mi",
+#     'age': 18,
+#     'sex': 'Male',
+#     'hobby': ['Python', 'Java'],
+#     'is_wife_beater': False
+# }
+# print(my_dict)
+#
+# print(my_dict['age'])
+#
+# for key in my_dict:
+#     print(key, '-->', my_dict[key])
+# for key, value in my_dict.items():
+#     print(key, '-->', value)
+# print(my_dict.items())
+
+lst = ['Who', 'the', 'hell', 'are', 'you']
+lst.append(['and', 'what', 'do', 'you', 'want'])
+print(lst)
+lst.extend(['and', 'wtf'])
+print(lst)
 
