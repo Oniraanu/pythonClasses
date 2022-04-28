@@ -73,3 +73,10 @@ def are_you_playing_banjo(name):
 
 
 print(are_you_playing_banjo(name="tola"))
+
+# lst = []
+# for i in range(65, 99):
+#     lst.append(chr(i))
+
+lst = [chr(i) for i in range(65, 91)]
+print(lst)
