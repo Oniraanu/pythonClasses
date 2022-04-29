@@ -22,12 +22,12 @@
 #         user_input = user_input / 2
 #     print(user_input)
 #
-# my_str = input('Enter number: ')
-# var = my_str[::-1]
-# if my_str == var:
-#     print("Palindrome")
-# else:
-#     print("Not palindrome")
+my_str = input('Enter number: ')
+var = my_str[::-1]
+if my_str == var:
+    print("Palindrome")
+else:
+    print("Not palindrome")
 #
 # for i in range(11, 1, -1):
 #     print('*' * i)
@@ -96,9 +96,8 @@
 #     print(key, '-->', value)
 # print(my_dict.items())
 
-lst = ['Who', 'the', 'hell', 'are', 'you']
-lst.append(['and', 'what', 'do', 'you', 'want'])
-print(lst)
-lst.extend(['and', 'wtf'])
-print(lst)
+# lst = ['Who', 'the', 'hell', 'are', 'you', ['and', 'what', 'do', 'you', 'want']]
+# print(lst)
+# lst.extend(['and', 'wtf'])
+# print(lst)
 
