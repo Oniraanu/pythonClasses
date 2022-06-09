@@ -1,3 +1,6 @@
+from tic_tac_toe.board_exception import BoardException
+
+
 class Board:
     def __init__(self):
         self.board = [""] * 9
@@ -17,11 +20,12 @@ class Board:
         self.is_position_allowed(position)
         return self.board[position - 1] == ""
 
+    @staticmethod
     def is_position_allowed(self, position):
         if not(1 <= position <= 9):
-            raise BoardEcception("Invalid cell position")
+            raise BoardException("Invalid cell position")
 
-    def is_board_full(self)-> bool:
+    def is_board_full(self) -> bool:
         return all(self.board)
 
     def fill_cell(self, position, sign):
