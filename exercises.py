@@ -43,17 +43,24 @@
 # def sort_occurrence():
 #     pass
 
-set1 = [3, 1, 7, 9]
-set2 = [2, 4, 1, 9, 3]
-new_set = []
-for i in set2:
-    if i not in set1:
-        new_set.append(i)
-for i in set1:
-    if i not in set2:
-        new_set.append(i)
-print(new_set)
-print(sum(new_set))
+# set1 = [3, 1, 7, 9]
+# set2 = [2, 4, 1, 9, 3]
+# new_set = []
+# for i in set2:
+#     if i not in set1:
+#         new_set.append(i)
+# for i in set1:
+#     if i not in set2:
+#         new_set.append(i)
+# print(new_set)
+# print(sum(new_set))
+
+# Reverse a string
+firstName = ["Bunmi", "Sikiru", "Anobi", "Ladi", "Love", "Tolani", "Nutmeg"]
+
+for names in firstName:
+    lastName = names[::-1]
+    print(lastName)
 
 
 
